@@ -1,0 +1,2301 @@
+*{ 
+    box-sizing:border-box;
+    text-decoration:none;
+    border:none;
+    outline:none;
+    transition:all 0.4s;   
+    /* list-style-type:none; */
+}
+body{
+    background-image:url(Images/nature.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+/* სასტუმროს სათაურის გაკეთება დასაწყისი*/
+.Balu{
+    color:rgb(3, 134, 3);
+    position:absolute;
+    top:20px;
+    left:100px;
+}
+.Balu span{
+    color:black;
+}
+
+/* სასტუმროს სათაურის გაკეთება დასასრული*/
+
+/* ჩამონათვალი ლისტი გასაკეთებელი დასაწყისი */
+.navBar{
+    position:relative;
+    margin-top:45px; 
+    text-align:center;
+}
+.navBar .home{
+    background-color:rgb(3, 134, 3);
+    border-radius:5px;;
+    color:white;
+}
+.navBar a{
+    padding:18px;
+    color:black;
+    font-weight:bold;
+}
+.navBar a:hover{
+    background-color:rgb(3, 134, 3);
+    color:white;    
+    border-radius:5px;
+    font-weight:bold;
+}
+.navBar .home:hover{
+    color:white;   
+    font-weight:bold;
+}
+/* ჩამონათვალი ლისტი გასაკეთებელი დასასრული *
+
+
+/* Login da register button ები დასაწყისი :) */
+#Login{
+    cursor:pointer;
+    position:absolute;
+    right:150px;
+    top:37px;
+    border:none;
+    background-color:black;
+    width:80px;
+    height:40px;
+    border-radius:10px;
+    color:white;
+    font-weight:bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Register{
+    cursor:pointer;
+    position:absolute;
+    right:22px;
+    top:37px;
+    border:none;
+    background-color:black;
+    width:120px;
+    height:40px;
+    border-radius:10px;
+    color:white;
+    font-weight:bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Login:hover{
+    background-color:crimson;
+    color:white;    
+    border-radius:5px;
+    font-weight:bold;
+    transition:0.3s;
+}
+#Register:hover{
+    background-color:crimson;
+    color:white;    
+    border-radius:5px;
+    font-weight:bold;
+    transition:0.3s;
+}
+/* Login da register button ები დასასრული :) */
+
+/* გვერდის მთავარი ტექსტის დაწერა და ასევე მასში მოცემული
+ინფორმაცის დასაწყისი :) */
+.HomePage{
+    position:relative;
+}
+.HomePage h1{
+    position:absolute;
+    top:120px;
+    left:100px;
+    font-size:80px;
+    font-weight:100;
+}
+.HomePage span{
+    color:rgb(3, 134, 3);
+}
+.HomePage .InfoAboutHotel{
+    text-transform:capitalize;
+    position:absolute;
+    top:370px;
+    left:100px;
+    color:black;
+    font-weight:bold;
+}
+.HomePage .InfoAboutHotel span{
+    color:red;
+    font-weight:bold;
+}
+.HomePage .NumberOfHotel{
+    position:absolute;
+    top:450px;
+    left:100px;
+    font-size:25px;
+    color:black;
+    font-weight:bold;
+}
+.HomePage .sml{
+    font-size:15px;
+    color:black;
+    font-weight:bold;
+    padding:3px;
+}
+.HomePage .NumberOfVilla{
+    position:absolute;
+    top:450px;
+    left:200px;
+    font-size:25px;
+    color:black;
+    font-weight:bold;
+}
+.HomePage .sml2{
+    font-size:15px;
+    color:black;
+    font-weight:bold;
+    padding:3px;
+}
+.HomePage .BookNow{
+    cursor:pointer;
+    position:absolute;
+    top:520px;
+    left:100px;
+    width:140px;
+    height:40px;
+    background-color:red;
+    color:white;
+    border:none;
+    outline:none;
+    border-radius:4px;
+    font-weight:bold;
+    text-indent:-25px;
+}
+.BookNow:hover{
+    background-color:crimson;
+}
+.HomePage .fa-solid{
+    color:white;
+    position:absolute;
+    right:10px;
+    font-size:20px;
+    top:9px;
+}
+
+/* Payment img list start */
+
+.HomePage .natureVilla{
+    position:absolute;
+    width:500px;
+    height:400px;
+    right:90px;
+    top:90px;
+    border-radius:10px;
+}
+.HomePage .natureVilla2{
+    position:absolute;
+    width:400px;
+    height:250px;
+    right:90px;
+    top:360px;
+    border-radius:10px;
+}
+
+/* Payment img list finish */
+
+
+
+
+/* Starting login page  */
+.LoginPage{
+    position:relative;
+    width:1000px;
+    height:700px;
+    background-color:white;
+    font-weight:bold;
+    margin-left:270px;
+    margin-top:-54.5px;
+    border-radius:40px;;
+}
+.LoginPage .LoginSecurity{
+    position:absolute;
+    width:600px;
+    height:680px;
+    left:20px;
+    top:5px;
+    border-radius:10px;
+}
+.LoginPage .h1{
+     position:absolute;
+     right:20px;
+     top:50px;
+     font-size:50px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.LoginPage .usernameOrEmail{
+      position:absolute;
+      right:85px;
+      top:250px;
+      width:270px;
+      height:45px;
+      border:none;
+      outline:none;
+      background-color:black;
+      border-radius:5px;
+      color:white;
+      font-weight:bold;
+      text-indent:15px;
+      text-transform:capitalize;
+      
+}
+.LoginPage .pass{
+    position:absolute;
+    right:85px;
+    top:300px;
+    width:270px;
+    height:45px;
+    border:none;
+    outline:none;
+    background-color:black;
+    border-radius:5px;
+    color:white;
+    font-weight:bold;
+    text-indent:15px;
+    text-transform:capitalize;  
+}
+.LoginPage .rememberme{
+    cursor:pointer;
+    position:absolute;
+    right:233px;
+    top:350px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.LoginPage .forgotpass{
+    cursor:pointer;
+    position:absolute;
+    right:82px;
+    top:350px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.LoginPage .login22{
+    position:absolute;
+    right:85px;
+    top:420px;
+    width:270px;
+    border:none;
+    color:white;
+    font-weight:bold;
+    outline:none;
+    height:45px;
+    background-color:rgb(7, 211, 211);
+    border-radius:5px;
+    cursor:pointer;
+    letter-spacing:1px;
+}
+.LoginPage .login22:hover{
+    background-color:blueviolet;
+    transition:0.4s;
+}
+.LoginPage .dontAcc{
+    position:absolute;
+    right:190px;
+    top:470px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.LoginPage .ClickHere{
+    position:absolute;
+    right:110px;
+    cursor:pointer;
+    top:470px;
+    color:rgb(7, 211, 211);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.LoginPage .appstore{
+    position:absolute;
+    width:100px;
+    height:35px;
+    border-radius:5px;
+    top:540px;
+    right:254px;
+}
+.LoginPage .googlepay{
+    position:absolute;
+    width:100px;
+    height:35px;
+    border-radius:5px;
+    top:540px;
+    right:145px;
+}
+.LoginPage .close .fa-sharp{
+    cursor:pointer;
+    position:absolute;
+    right:14px;
+    top:6px;
+    font-size:20px;
+    color:black;
+    font-weight:bold;
+}
+.LoginPage .close .fa-sharp:hover{
+    color:aqua;
+}
+/* finishing login page  */
+
+/* Registration start */
+.Registration{
+    position:relative;
+    width:1000px;
+    height:600px;
+    top:30px;
+    left:300px;
+    background-color:white;
+    font-weight:bold;
+    border-radius:25px;
+}
+ .Registration .Hand{
+    position:absolute;
+    width:400px;
+    top:80px;
+    left:500px;
+    border-radius:20px;
+} 
+.Registration h1{
+    position:absolute;
+    right:158px;
+    top:90px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Registration .ownAcc{
+    position:absolute;
+    right:150px;
+    top:135px;
+    font-size:13px;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.Registration .yourName{
+    position:absolute;
+    right:155px; 
+    top:190px;
+    background-color:black;
+    height:40px;
+    border-radius:4px;
+    width:140px;
+    text-indent:20px;
+    color:white;
+    font-weight:bold;
+    text-transform:capitalize;  
+}
+.Registration .fa-solid{
+    position:absolute;
+    right:276px;
+    top:201px;
+    color:white;
+}
+
+.Registration .email0{
+    position:absolute;
+    right:155px; 
+    top:240px;
+    background-color:black;
+    height:40px;
+    border-radius:4px;
+    width:140px;
+    text-indent:21px;
+    color:white;
+    font-weight:bold;
+    text-transform:capitalize;  
+}
+.Registration .fa-envelope{
+    position:absolute;
+    right:275px;
+    top:253px;
+    color:white;
+}
+
+.Registration .pass00{
+    position:absolute;
+    right:155px; 
+    top:290px;
+    background-color:black;
+    height:40px;
+    border-radius:4px;
+    width:140px;
+    text-indent:22px;
+    color:white;
+    font-weight:bold;
+    text-transform:capitalize;  
+}
+.Registration .fa-lock{
+    position:absolute;
+    right:275px;
+    top:300px;
+    color:white;
+}
+.Registration .register{
+    cursor: pointer;
+    position:absolute;
+    right:165px;
+    top:345px;
+    height:35px;
+    background-color:black;
+    color:white;
+    font-weight:bold;
+    border-radius:10px;
+    width:120px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.Registration .signn{
+    cursor: pointer;
+    position:absolute;
+    right:165px;
+    top:385px;
+    height:35px;
+    background-color:black;
+    color:white;
+    font-weight:bold;
+    border-radius:10px;
+    width:120px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing:1px;
+
+}
+.Registration .register:hover{
+    background-color:gold;
+    transition:0.3s;
+}
+.Registration .signn:hover{
+    background-color:gold;
+    transition:0.3s;
+}
+
+.Registration .secondBox{
+    position:relative;
+    height:600px;
+    background-color:black;
+    width:600px;
+    margin-left:-100px;
+    border-radius:25px;
+}
+.Registration .secondBox .loginSecurityy{
+    position:absolute;
+    top:50px;
+    left:55px;
+    width:500px;
+}
+.Registration .closeDown2 .fa-xmark{
+    cursor:pointer;
+    position:absolute;
+    right:6px;
+    color:black;
+    top:1px;
+    font-size:22px;
+}
+.Registration .closeDown2 .fa-xmark:hover{
+    color:red;
+}
+/* Registration end */
+
+/* Booking stays start */
+
+.Booking{
+    position:relative;
+    width:840px; 
+    height:100px;
+    margin-top:555px;
+    margin-left:102px;
+    background-color:white;
+    border-radius:10px;
+}
+.Booking .bookingHotel{
+    position:absolute;
+    background-color:black;
+    top:33px;
+    height:40px;
+    border-radius:5px;
+    width:250px;
+    text-indent:26px;
+    color:white;
+    font-weight:bold;
+    left:20px;
+    text-transform:capitalize;
+}
+.Booking .fa-bed{
+    position:absolute;
+    color:red;
+    top:44px;
+    left:24px;
+    color:white;
+}
+.Booking .datebooking{
+    position:absolute;
+    background-color:black;
+    top:33px;
+    left:275px;
+    height:40px;
+    border-radius:5px;
+    width:150px;
+    color:white;
+    font-size:15px;
+    font-weight:bold;
+    text-indent:11px;
+}
+.Booking .fa-calendar-days{
+    color:white;
+    position:absolute;
+    top:45px;
+    left:280px;
+}
+.Booking .datebooking2{
+    position:absolute;
+    background-color:black;
+    top:33px;
+    left:431px;
+    height:40px;
+    border-radius:5px;
+    width:150px;
+    color:white;
+    font-size:15px;
+    font-weight:bold;
+    text-indent:11px;
+}
+.Booking .fa-sharp{
+    color:white;
+    position:absolute;
+    top:45px;
+    left:436px;
+}
+.Booking .guestbooking{
+    position:absolute;
+    background-color:black;
+    top:33px;
+    right:103px;
+    height:40px;
+    border-radius:5px;
+    width:150px;
+    color:white;
+    font-size:15px;
+    font-weight:bold;
+    text-indent:11px;
+}
+
+.Booking .BookingForSearchButton .searchHotel{
+    position:absolute;
+    cursor:pointer;
+    right:18px;
+    top:33px;
+    background-color:black;
+    color:white;
+    width:80px;
+    height:40px;
+    border-radius:5px;
+    font-size:20px;
+}
+
+.closeBooking .fa-xmark{
+    position:absolute;
+    cursor:pointer;
+    right:4px;
+    top:-2px;
+    font-size:20px;
+}
+.closeBooking .fa-xmark:hover{
+    color:darkgreen;
+}
+/* Booking stays finish */
+
+/* Cabin start */
+.cabin{
+    position:relative;
+    width: 1527px;
+    height:650px;
+    background-color:white;
+    font-weight:bold;
+    margin-top:700px;
+    margin-left:-8px;
+    transform:translateY(20px);
+}
+.cabin .recomendation{
+    position:absolute;
+    left:70px;
+    top:40px;
+    letter-spacing:2px;
+    color:black;
+    font-weight:bold;
+    font-size:40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cabin .seeall{
+    position:absolute;
+    cursor:pointer;
+    right:70px;
+    top:160px;
+    letter-spacing:2px;
+    color:black;
+    font-weight:bold;
+    height:40px;
+    background-color:black;
+    color:white;
+    border-radius:5px;
+    font-weight:bold;
+    width:100px;
+}
+.cabin .seeall:hover{
+background-color:red;
+}
+.cabin .enjoyLife{
+    position:absolute;
+    left:70px;
+    top:160px;
+    letter-spacing:2px;
+    color:red;
+    color:redx;
+    font-weight:bold;
+    font-size:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cabin .cabin1{
+    cursor:pointer;
+    position:absolute;
+    width:350px;
+    height:300px;
+    top:280px;
+    left:77px;
+    border-radius:10px;;
+}
+.cabin .sale40{
+    position:absolute;
+    background-color:black;
+    height:30px;
+    border-radius:5px;
+    color:white;
+    cursor:pointer;
+    font-weight:bold;
+    top:290px;
+    left:338px;
+    width:70px;
+}
+.infoAboutCabin{
+    position:absolute;
+    width:350px;
+    height:129px;
+    background-color:black;
+    top:510px;
+    left:77px;
+    border-radius:5px;
+}
+.infoAboutCabin .toba{
+    color:white;
+    position:absolute;
+    left:20px;
+    top:-10px;
+    font-family:'Courier New', Courier, monospace;
+}
+.infoAboutCabin .badd{
+    color:white;
+    position:absolute;
+    left:50px;
+    top:30px;
+    font-family:'Courier New', Courier, monospace;
+}
+.infoAboutCabin .fa-bed{
+    color:white;
+    position:absolute;
+    left:22px;
+    top:45px;
+}
+
+.infoAboutCabin .heater{
+    color:white;
+    position:absolute;
+    left:43px;
+    top:64px;
+    font-family:'Courier New', Courier, monospace;
+}
+.infoAboutCabin .fa-temperature-arrow-up{
+    color:white;
+    position:absolute;
+    left:22px;
+    top:80px;
+}
+
+
+
+.infoAboutCabin .bathroom{
+    color:white;
+    position:absolute;
+    left:150px;
+    top:65px;
+    font-family:'Courier New', Courier, monospace;
+}
+.infoAboutCabin .fa-sink{
+    color:white;
+    position:absolute;
+    left:128px;
+    top:80px;
+}
+
+
+
+.infoAboutCabin .wifi{
+    color:white;
+    position:absolute;
+    left:150px;
+    top:30px;
+    font-family:'Courier New', Courier, monospace;
+}
+.infoAboutCabin .fa-wifi{
+    color:white;
+    position:absolute;
+    left:125px;
+    top:47px;
+}
+.infoAboutCabin .price{
+    color:white;
+    position:absolute;
+    right:20px;
+    top:45px
+}
+.infoAboutCabin .price span{
+    color:red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+/* Second Kabin image start */
+.cabin .cabin2{
+    cursor:pointer;
+    position:absolute;
+    width:350px;
+    height:300px;
+    top:280px;
+    left:600px;
+    border-radius:10px;;
+}
+.cabin .sale50{
+    position:absolute;
+    background-color:black;
+    height:30px;
+    border-radius:5px;
+    color:white;
+    cursor:pointer;
+    font-weight:bold;
+    top:290px;
+    left:860px;
+    width:70px;
+}
+.infoAboutCabin2{
+    position:absolute;
+    width:350px;
+    height:129px;
+    background-color:black;
+    top:510px;
+    left:600px;
+    border-radius:5px;
+}
+.infoAboutCabin2 .cikole{
+    position:absolute;
+    color:white;
+    left:20px;
+    top:-10px;
+    font-family:'Courier New', Courier, monospace;
+}
+.infoAboutCabin2 .badd{
+    color:white;
+    position:absolute;
+    left:50px;
+    top:30px;
+    font-family:'Courier New', Courier, monospace;
+}
+.infoAboutCabin2 .fa-bed{
+    color:white;
+    position:absolute;
+    left:22px;
+    top:45px;
+}
+
+.infoAboutCabin2 .heater{
+    color:white;
+    position:absolute;
+    left:43px;
+    top:64px;
+    font-family:'Courier New', Courier, monospace;
+}
+.infoAboutCabin2 .fa-temperature-arrow-up{
+    color:white;
+    position:absolute;
+    left:22px;
+    top:80px;
+}
+
+
+
+.infoAboutCabin2 .bathroom{
+    color:white;
+    position:absolute;
+    left:150px;
+    top:65px;
+    font-family:'Courier New', Courier, monospace;
+}
+.infoAboutCabin2 .fa-sink{
+    color:white;
+    position:absolute;
+    left:128px;
+    top:80px;
+}
+
+
+
+.infoAboutCabin2 .wifi{
+    color:white;
+    position:absolute;
+    left:150px;
+    top:30px;
+    font-family:'Courier New', Courier, monospace;
+}
+.infoAboutCabin2 .fa-wifi{
+    color:white;
+    position:absolute;
+    left:125px;
+    top:47px;
+}
+.infoAboutCabin2 .price{
+    color:white;
+    position:absolute;
+    right:20px;
+    top:45px
+}
+.infoAboutCabin2 .price span{
+    color:red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+/* Second Kabin image finish */
+
+/* third cabin image and info start */
+.cabin .cabin3{
+    cursor:pointer;
+    position:absolute;
+    width:350px;
+    height:300px;
+    top:280px;
+    left:1100px;
+    border-radius:10px;;
+}
+.cabin .sale5{
+    position:absolute;
+    background-color:black;
+    height:30px;
+    border-radius:5px;
+    color:white;
+    cursor:pointer;
+    font-weight:bold;
+    top:290px;
+    left:1360px;
+    width:70px;
+}
+.infoAboutCabin3{
+    position:absolute;
+    width:350px;
+    height:129px;
+    background-color:black;
+    top:510px;
+    left:1100px;
+    border-radius:5px;
+}
+.infoAboutCabin3 .anri{
+    position:absolute;
+    color:white;
+    left:20px;
+    top:-10px;
+    font-family:'Courier New', Courier, monospace;
+}
+.infoAboutCabin3 .badd{
+    color:white;
+    position:absolute;
+    left:50px;
+    top:30px;
+    font-family:'Courier New', Courier, monospace;
+}
+.infoAboutCabin3 .fa-bed{
+    color:white;
+    position:absolute;
+    left:22px;
+    top:45px;
+}
+
+.infoAboutCabin3 .heater{
+    color:white;
+    position:absolute;
+    left:43px;
+    top:64px;
+    font-family:'Courier New', Courier, monospace;
+}
+.infoAboutCabin3 .fa-temperature-arrow-up{
+    color:white;
+    position:absolute;
+    left:22px;
+    top:80px;
+}
+
+
+
+.infoAboutCabin3 .bathroom{
+    color:white;
+    position:absolute;
+    left:150px;
+    top:65px;
+    font-family:'Courier New', Courier, monospace;
+}
+.infoAboutCabin3 .fa-sink{
+    color:white;
+    position:absolute;
+    left:128px;
+    top:80px;
+}
+
+
+
+.infoAboutCabin3 .wifi{
+    color:white;
+    position:absolute;
+    left:150px;
+    top:30px;
+    font-family:'Courier New', Courier, monospace;
+}
+.infoAboutCabin3 .fa-wifi{
+    color:white;
+    position:absolute;
+    left:125px;
+    top:47px;
+}
+.infoAboutCabin3 .price{
+    color:white;
+    position:absolute;
+    right:20px;
+    top:45px
+}
+.infoAboutCabin3 .price span{
+    color:red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.water{
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+.whoWeAre{
+    position:relative;
+    width:1535px;
+    height:700px;
+    top:20px;
+    margin-left:-10px;
+    background-color:white;
+    font-weight:bold;
+  
+}
+.whoWeAre .why{
+    position:absolute;
+    left:540px;
+    top:50px;
+    font-family:'Courier New', Courier, monospace;
+    box-shadow:5px 6px 2px 2px red;
+}
+.whoWeAre .jungle{
+    position:absolute;
+    width:600px;
+    height:330px;
+    left:100px;
+    top:250px;
+    border-radius:10px;
+}
+.whoWeAre .jungle1{
+    position:absolute;
+    width:300px;
+    height:150px;
+    left:50px;
+    bottom:50px;
+    border-radius:10px;
+    transform:rotate(360deg);
+}
+.whoWeAre .junglebalu2{
+    position:absolute;
+    left:110px;
+    top:60px;
+    color:rgb(3, 134, 3);
+    font-size:25px;
+}
+.whoWeAre .junglebalu2 span{
+    position:absolute;
+    color:black;
+}
+.whoWeAre .jungle3{
+    position:absolute;
+    width:300px;
+    height:150px;
+    left:500px;
+    top:250px;
+    border-radius:10px;
+}
+
+.whoWeAre .infoaboutUs{
+    position:absolute;
+    right:77px;
+    bottom:400px;
+    font-size:23px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.whoWeAre .infoaboutUs span{
+    color:red;
+    font-weight:bold;
+}
+.whoWeAre ul{
+    position:absolute;
+    left:950px;
+    top:350px;
+    font-size:22px;
+}
+.whoWeAre .top5reason{
+    position:absolute;
+    right:410px;
+    bottom:330px;
+    box-shadow:5px 4px 2px 2px red;
+}
+.whoWeAre .openHotel{
+    position:absolute;
+    right:150px;
+    bottom:100px;
+    text-transform:capitalize;
+    color:black;
+    font-weight:bold;
+    text-shadow:1px 0px 0px red;
+    box-shadow:5px 4px 2px 2px black;
+    
+}
+.whoWeAre .enjoyHotel{
+    position:absolute;
+    right:80px;
+    bottom:60px;
+    text-transform:capitalize;
+    color:black;
+    font-weight:bold;
+    text-shadow:1px 0px 0px red;
+    box-shadow:5px 4px 2px 2px black;
+    
+}
+.whoWeAre .family{
+    position:absolute;
+    right:180px;
+    bottom:20px;
+    text-transform:capitalize;
+    color:black;
+    font-weight:bold;
+    text-shadow:1px 0px 0px red;
+    
+} 
+
+
+.whoWeAre .bookingHotl{
+    position:absolute;
+    right:70px;
+    cursor:pointer;
+    top:70px;
+    height:45px;
+    width:120px;
+    color:white;
+    font-weight:bold;
+    border-radius:5px;
+    background-color:black;
+}
+.whoWeAre .bookingHotl:hover{
+    background-color:red;
+    transition: 0.3s;
+}
+.whoWeAre ol{
+    position:absolute;
+    right:200px; 
+    top:355px;
+    font-size:23px;
+}
+.whoWeAre ol li{
+    color:black;
+}
+
+
+
+
+/* what our visitor saying about us starting */
+
+.visitor{
+    position:relative;
+    background-color:white;
+    font-weight:bold;
+    width:1535px;
+    margin-left:-10px;
+    margin-top:20px;
+    height:650px;
+    transform:translateY(10px);
+}
+.visitor .say{
+    position: absolute;
+    top:40px;
+    left:450px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing:5px;
+    color:red;
+    box-shadow:0px 4px 0px 4px black;
+    text-indent:3px;
+}
+.visitor .somePeople0{
+    position:absolute;
+    top:100px;
+    left:520px;
+    font-size:23px;
+    text-transform:capitalize;
+}
+
+ .firstVisitor{
+    position:relative;
+    width:350px;
+    height:410px;
+    background-color:gray;
+    font-weight:bold;
+    margin-left:170px;
+    transform:translateY(200px);
+    border-radius:15px;
+}
+.firstVisitor .visitor1{
+    position:absolute;
+    width:130px;
+    left:115px;
+    top:50px;
+    border-radius:100%;
+}
+.firstVisitor .namevisitor{
+    position:absolute;
+    left:120px;
+    top:167px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.firstVisitor .traveler{
+    position:absolute;
+    left:150px;
+    top:220px;
+    color:Black;
+    font-weight:bold;
+}
+.firstVisitor .recomend{
+    position:absolute;
+    bottom:62px;
+    left:75px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.firstVisitor .recomend span{
+    position:absolute;
+    left:37px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.firstVisitor .st{
+    position:absolute;
+    left:90px;
+    top:220px;
+    font-size:25px;
+}
+.visitor .backsl{
+    position:absolute;
+    color:black;
+    font-size:120px;
+    left:210px;
+    top:43px;
+}
+
+
+/* Second Visitor Start */
+.secondVisitor{
+    position:relative;
+    width:350px;
+    height:410px;
+    background-color:gray;
+    font-weight:bold;
+    margin-left:590px;
+    transform:translateY(-210px);
+    border-radius:15px;
+}
+.secondVisitor .boyvisitor{
+    position:absolute;
+    width:130px;
+    left:115px;
+    top:50px;
+    border-radius:100%;
+}
+.secondVisitor .boyName{
+    position:absolute;
+    left:105px;
+    top:167px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.secondVisitor .Photographer{
+    position:absolute;
+    left:140px;
+    top:220px;
+    color:Black;
+    font-weight:bold;
+}
+.secondVisitor .recomended{
+    position:absolute;
+    bottom:62px;
+    left:75px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.secondVisitor .recomended span{
+    position:absolute;
+    left:37px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.secondVisitor .stars{
+    position:absolute;
+    left:90px;
+    top:220px;
+    font-size:25px;
+}
+ .backslash{
+    position:absolute;
+    color:black;
+    font-size:120px;
+    left:630px;
+    top:43px;
+}
+
+/* Second Visitor finishing */
+
+/*    <!-- third Visitor starting --> */
+.thirdVisitor{
+    position:relative;
+    width:350px;
+    height:410px;
+    background-color:gray;
+    font-weight:bold;
+    margin-left:1010px;
+    transform:translateY(-620px);
+    border-radius:15px;
+}
+.thirdVisitor .boyvisitor1{
+    position:absolute;
+    width:130px;
+    left:115px;
+    top:50px;
+    border-radius:100%;
+}
+.thirdVisitor .boyNames{
+    position:absolute;
+    left:118px;
+    top:167px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.thirdVisitor .Programmer{
+    position:absolute;
+    left:150px;
+    top:220px;
+    color:Black;
+    font-weight:bold;
+}
+.thirdVisitor .recomendeds{
+    position:absolute;
+    bottom:62px;
+    left:75px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.thirdVisitor .recomendeds span{
+    position:absolute;
+    left:24px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.thirdVisitor .starss{
+    position:absolute;
+    left:90px;
+    top:220px;
+    font-size:25px;
+}
+ .backslashs{
+    position:absolute;
+    color:black;
+    font-size:120px;
+    left:1050px;
+    top:43px;
+}
+
+
+/*    <!-- third Visitor finishing --> */
+
+/* what our visitor saying about us finishing */
+
+/* Chef starting */
+.chef{
+    position:relative;
+    width:1533px;
+    height:660px;
+    background-color:palevioletred;
+    margin-top:8px;
+    margin-left:-8px;
+    transform:translateY(1px);
+}
+.chef .FreshFood{
+    position:absolute;
+    top:90px;
+    left:100px;
+    font-size:40px;
+    font-weight:100;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.chef .foodiNfo{
+     position:absolute;
+     top:220px;
+     left:100px;
+     color:black;
+     font-weight:bold;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.chef .seemenu{
+    position:absolute;
+    top:330px;
+    left:100px;
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+}
+.chef .fa-solid{
+    position:absolute;
+    top:352px;
+    left:250px;
+    font-size:23px;
+    color:white;
+}
+.chef .menu{
+    position:absolute;
+    cursor:pointer;
+    top:342px;
+    left:310px;
+    width:110px;
+    height:45px;
+    border-radius:5px;
+    background-color:black;
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    letter-spacing:1px;
+    text-indent:8px;
+}
+.chef .menu:hover{
+    background-color:palevioletred;
+    box-shadow:5px 5px 0px 0px  red;
+}
+
+/*See The chef starting */
+.chef .seechefs{
+    position:absolute;
+    top:410px;
+    left:100px;
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+}
+
+.chef .chef{
+    position:absolute;
+    cursor:pointer;
+    top:410px;
+    left:370px;
+    width:110px;
+    height:45px;
+    border-radius:5px;
+    background-color:black;
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    letter-spacing:1px;
+    text-indent:8px;
+}
+.chef .chef:hover{
+    background-color:palevioletred;
+    transform:rotate(340deg);
+    box-shadow:5px 5px 0px 0px  red;
+
+}
+.chef .longarrow .fa-solid{
+   position:absolute;
+   top:430px;
+   left:310px;
+   color:white;
+}
+
+.chef .chefdishes{
+    position:absolute;
+    width:300px;
+    left:700px;
+    top:130px;
+    height:300px;
+    border-radius:10px;
+    transform:rotate(330deg);
+}
+
+.chef .chefdishes1{
+    position:absolute;
+    width:300px;
+    left:1000px;
+    top:230px;
+    height:300px;
+    border-radius:10px;
+    transform:rotate(330deg);
+}
+
+.chef .bookingdishes{
+    position:absolute;
+    cursor:pointer;
+    right:40px;
+    bottom:30px;
+    width:200px;
+    height:40px;
+    border-radius:10px;
+    color:white;
+    font-weight:bold;
+    letter-spacing:1px;
+    font-size:15px; 
+    text-indent:5px;
+    background-color:black;
+}
+.chef .bookingdishes:hover{
+    box-shadow:5px 5px 0px 0px  red;
+    transform:scale(50px);
+}
+
+.chefInfo{
+    position:relative;
+    width:450px;
+    height:500px;
+    background-color:white;
+    left:50px;
+    top:78px;
+    border-radius:15px;
+}
+.chefInfo .mrandmrs{
+    position:absolute;
+    width:80px;
+    left:2px;
+    top:5px;
+    border-radius:10px;
+}
+.chefInfo .gordon{
+    position:absolute;
+    width:250px;
+    left:100px;
+    top:80px;
+    border-radius:100%;
+}
+.chefInfo .infogordon{
+    position:absolute;
+    top:250px;
+    left:115px;
+    color:black;
+    font-weight:bold;
+    font-size:18px;
+}
+.chefInfo .experiencegordon{
+    position:absolute;
+    top:277px;
+    left:115px;
+    color:black;
+    font-weight:bold;
+    font-size:18px;
+}
+.chefInfo .Favdish{
+    position:absolute;
+    top:307px;
+    left:115px;
+    color:black;
+    font-weight:bold;
+    font-size:18px;
+}
+.chefInfo .reviewgordon{
+    position:absolute;
+    top:336px;
+    left:115px;
+    color:black;
+    font-weight:bold;
+    font-size:18px;
+}
+.chefInfo .qoute{
+    position:absolute;
+    top:390px;
+    left:55px;
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.closegordon .fa-solid{
+    position:absolute;
+    cursor:pointer;
+    top:3px;
+    transform:translateX(178px);
+    color:black;
+    font-size:23px;
+}
+
+/* second chef eleonora starting */
+
+.chefInfo2{
+    position:relative;
+    width:450px;
+    height:500px;
+    background-color:white;
+    left:550px;
+    top:-422px;
+    border-radius:15px;
+}
+.chefInfo2 .mrandmrss{
+    position:absolute;
+    width:80px;
+    left:2px;
+    top:5px;
+    border-radius:10px;
+}
+.chefInfo2 .leonora{
+    position:absolute;
+    width:200px;
+    height:160px;
+    left:130px;
+    top:80px;
+    border-radius:100%;
+}
+.chefInfo2 .infoleonora{
+    position:absolute;
+    top:250px;
+    left:115px;
+    color:black;
+    font-weight:bold;
+    font-size:18px;
+}
+.chefInfo2 .experienceleonora{
+    position:absolute;
+    top:277px;
+    left:115px;
+    color:black;
+    font-weight:bold;
+    font-size:18px;
+}
+.chefInfo2 .Favdishes{
+    position:absolute;
+    top:307px;
+    left:115px;
+    color:black;
+    font-weight:bold;
+    font-size:18px;
+}
+.chefInfo2 .reviewleonora{
+    position:absolute;
+    top:336px;
+    left:115px;
+    color:black;
+    font-weight:bold;
+    font-size:18px;
+}
+.chefInfo2 .qoute2{
+    position:absolute;
+    top:370px;
+    left:30px;
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.closegleonora .fa-solid{
+    cursor:pointer;
+    position:absolute;
+    top:3px;
+    transform:translateX(178px);
+    color:black;
+    font-size:23px;
+}
+
+/* second chef eleonora finsihing */
+
+/* third chef eleonora starting */
+.chefInfo3{
+    position:relative;
+    width:450px;
+    height:500px;
+    background-color:white;
+    margin-left:1042px;
+    top:-921px;
+    border-radius:15px;
+}
+.chefInfo3 .mrandmrsss{
+    position:absolute;
+    width:80px;
+    left:2px;
+    top:5px;
+    border-radius:10px;
+}
+.chefInfo3 .joe{
+    position:absolute;
+    width:200px;
+    height:160px;
+    left:140px;
+    top:103px;
+    border-radius:100%;
+}
+.chefInfo3 .infojoe{
+    position:absolute;
+    top:250px;
+    left:120px;
+    color:black;
+    font-weight:bold;
+    font-size:18px;
+}
+.chefInfo3 .experiencjoe{
+    position:absolute;
+    top:277px;
+    left:120px;
+    color:black;
+    font-weight:bold;
+    font-size:18px;
+}
+.chefInfo3 .Favdishesjoe{
+    position:absolute;
+    top:307px;
+    left:120px;
+    color:black;
+    font-weight:bold;
+    font-size:18px;
+}
+.chefInfo3 .reviewjoe{
+    position:absolute;
+    top:336px;
+    left:120px;
+    color:black;
+    font-weight:bold;
+    font-size:18px;
+}
+.chefInfo3 .qoute3{
+    position:absolute;
+    top:370px;
+    left:30px;
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.closejoe .fa-solid{
+    cursor:pointer;
+    position:absolute;
+    top:3px;
+    transform:translateX(178px);
+    color:black;
+    font-size:23px;
+}
+/* third chef eleonora finishing */
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+    background-color:black;
+  }
+  ::-webkit-scrollbar-track:hover{
+    background:white;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:rgb(3, 99, 3);
+    font-weight:bold; 
+  }
+
+.FullMenu{
+   position:relative;
+}
+.FullMenu .menuback{
+    position:absolute;
+    top:-600px;
+    left:90px;
+    width:450px;
+    height:550px;
+    border-radius:30px;
+}
+.FullMenu  .menuformenu{
+    position:absolute;
+    top:-600px;
+    left:290px;
+    font-size:30px;
+    letter-spacing:2px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.FullMenu .apetizers{
+    position:absolute;
+    top:-530px;
+    left:110px;
+    font-size:30px;
+    letter-spacing:2px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.FullMenu .fullus{
+    position:absolute;
+    top:-470px;
+    left:90px;
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.FullMenu .fullus span{
+    position:absolute;
+    left:370px;
+}
+/* menus main dishes starting */
+.FullMenu .maindishes{
+    position:absolute;
+    top:-390px;
+    left:110px;
+    font-size:30px;
+    letter-spacing:2px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.FullMenu .fullmaindishes{
+    position:absolute;
+    top:-330px;
+    left:90px;
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.FullMenu .fullmaindishes span{
+    position:absolute;
+    left:370px; 
+}
+/* menus main dishes finishing */
+
+/* menu drink starting */
+.FullMenu .drink{
+    position:absolute;
+    top:-230px;
+    left:110px;
+    font-size:30px;
+    letter-spacing:2px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ .FullMenu .alldrinks{
+    position:absolute;
+    top:-180px;
+    left:90px;
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.FullMenu .alldrinks span{
+    position:absolute;
+    left:370px; 
+} 
+
+.FullMenu .closeAllmenu{
+    cursor:pointer;
+    position:absolute;
+    top:-600px;
+    left:510px;
+    font-size:28px;
+    color:black;
+}
+.FullMenu #seeallmenu{
+    position:absolute;
+    cursor:pointer;
+    top:410px;
+    left:300px;
+    width:150px;
+    height:40px;
+    background-color:black;
+    border-radius:10px;
+    color:white;
+    font-weight:bold;
+    font-size:17px;
+    text-indent:7px;
+}
+.FullMenu #seeallmenu:hover{
+    background-color:palevioletred;
+}
+/* menu drink finishing */
+
+
+/* starting reserve table */
+.reserveTable{
+    position:relative;
+    width:800px;
+    height:550px;
+    background-color:white;
+    border-radius:10px;
+    margin-top:-600px;
+    margin-left:400px;
+    
+}
+.reserveTable .bistro{
+    position:absolute;
+    width:200px;
+}
+.reserveTable .bookingresotrant{
+    position:absolute;
+    top:100px;
+    left:80px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.reserveTable #firstname{
+    position:absolute;
+    top:200px;
+    left:81px;
+    color:black;
+    font-weight:bold;
+}
+.reserveTable .fname10{
+    position:absolute;
+    color:red;
+    top:200px;
+    width:200px;
+    left:80px;
+    height:40px;
+    margin-top:23px;
+    border-radius:5px;
+    font-size:18px;
+    color:black;
+    text-indent:10px;
+    text-transform:capitalize;
+    border:1px solid black;
+}
+
+/* lastname */
+.reserveTable #lastnmae{
+    position:absolute;
+    top:200px;
+    left:352px;
+    color:black;
+    font-weight:bold;
+}
+.reserveTable .fname11{
+    position:absolute;
+    color:red;
+    top:200px;
+    width:200px;
+    left:350px;
+    height:40px;
+    margin-top:23px;
+    border-radius:5px;
+    font-size:18px;
+    color:black;
+    text-indent:10px;
+    text-transform:capitalize;
+    border:1px solid black;
+}
+/* input email */
+.reserveTable #email0{
+    position:absolute;
+    top:290px;
+    left:82px;
+    color:black;
+    font-weight:bold;
+}
+.reserveTable .email12{
+    position:absolute;
+    color:red;
+    top:290px;
+    width:240px;
+    left:81px;
+    height:40px;
+    margin-top:23px;
+    border-radius:5px;
+    font-size:15px;
+    color:black;
+    text-indent:10px;
+    text-transform:capitalize;
+    border:1px solid black;
+}
+/* input email finishing */
+/* number starting  */
+.reserveTable #number0{
+    position:absolute;
+    top:290px;
+    left:352px;
+    color:black;
+    font-weight:bold;
+}
+.reserveTable .number13{
+    position:absolute;
+    color:red;
+    top:290px;
+    width:250px;
+    left:352px;
+    height:40px;
+    margin-top:23px;
+    border-radius:5px;
+    font-size:15px;
+    color:black;
+    text-indent:10px;
+    text-transform:capitalize;
+    border:1px solid black;
+}
+/* number finishing  */
+/* date starting */
+.reserveTable #date0{
+    position:absolute;
+    top:380px;
+    left:81px;
+    color:black;
+    font-weight:bold;
+}
+.reserveTable .date14{
+    position:absolute;
+    color:red;
+    top:380px;
+    width:250px;
+    left:81px;
+    height:40px;
+    margin-top:23px;
+    border-radius:5px;
+    font-size:15px;
+    color:black;
+    text-indent:10px;
+    text-transform:capitalize;
+    border:1px solid black;
+}
+/* date finishing */
+/* person starting */
+.reserveTable #numb0{
+    position:absolute;
+    top:380px;
+    left:350px;
+    color:black;
+    font-weight:bold;
+}
+.reserveTable .number15{
+    position:absolute;
+    color:red;
+    top:380px;
+    width:250px;
+    left:350px;
+    height:40px;
+    margin-top:23px;
+    border-radius:5px;
+    font-size:15px;
+    color:black;
+    text-indent:10px;
+    text-transform:capitalize;
+    border:1px solid black;
+}
+/* person finishing */
+/* starting textarea */
+
+/* finishing textarea */
+.reserveTable #comments{
+    position:absolute;
+    top:460px;
+    left:241px;
+    color:black;
+    font-weight:bold;
+}
+.reserveTable .comments15{
+    position:absolute;
+    color:red;
+    top:460px;
+    width:250px;
+    left:240px;
+    height:50px;
+    margin-top:23px;
+    border-radius:5px;
+    font-size:15px;
+    color:black;
+    text-indent:10px;
+    text-transform:capitalize;
+    border:1px solid black;
+}
+.reserveTable .closereservetable{
+    position:absolute;
+    color:black;
+    cursor:pointer;
+    right:2px;
+    top:-1px;
+    font-size:23px;
+}
+.reserveTable .agretheterm{
+    position:absolute;
+    bottom:60px;
+    left:81px;
+    color:black;
+}
+.reserveTable #bookatable{
+    position:absolute;
+    cursor:pointer;
+    bottom:15px;
+    background-color:black;
+    width:200px;
+    height:45px;
+    left:270px; 
+    color:white;
+    font-weight:bold;
+    text-indent:8px;
+    border-radius:5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:18px;
+}
+.reserveTable #bookatable:hover{
+      background-color:palevioletred;
+}
+.reserveTable #dishes10{
+    position:absolute;
+    border-radius:20px;
+    width:100px;
+    right:20px;
+    bottom:20px;
+}
+
+.contact{
+    position:relative;
+    width:1535px;
+    height:500px;
+    left:-10px;
+    background-color:white;
+    transform:translateY(20px);
+}
+.contact .full{
+    position:absolute;
+    width:1535px;
+    top:-20px;
+    height:30px;
+    background-color:white;
+}
+.contact .customer{
+    position:absolute;
+    top:50px;
+    left:400px;
+    font-size:18px;
+    color:black;
+    font-weight:bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contact .mobileversion{
+    position:absolute;
+    top:50px;
+    left:750px;
+    font-size:18px;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+}
+
+.contact .account{
+    position:absolute;
+    top:50px;
+    left:1000px;
+    font-size:18px;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+}
+.contact .listBelowcustomer{
+    position:absolute;
+    top:80px;
+    left:358px;
+    font-size:18px;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+}
+.contact ul li{
+    list-style-type:none;
+}
+.contact .listBelowcustomer ul li{
+    padding:5px;
+}
+
+
+.contact .listBelowmobileVersion{
+    position:absolute;
+    top:80px;
+    left:710px;
+    font-size:18px;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+}
+.contact ul li{
+    list-style-type:none;
+}
+.contact .listBelowmobileVersion ul li{
+    padding:5px;
+}
+/* third list in contact */
+.contact .listBelowaccount{
+    position:absolute;
+    top:80px;
+    left:958px;
+    font-size:18px;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+}
+.contact ul li{
+    list-style-type:none;
+}
+.contact .listBelowaccount ul li{
+    padding:5px;
+}
+
+
+
+/* finishing reserve table */
+
+/* payment method starting */
+ .contact .paypal{ 
+     width:120px;
+    height:50px;
+    position:absolute;
+    top:380px;
+    left:400px;
+ }
+ .contact .shopePay{ 
+    width:130px;
+    height:70px;
+    position:absolute;
+    top:360px;
+    left:540px;
+}
+ .contact .visa{
+    width:130px;
+    height:30px;
+    position:absolute;
+    top:390px;
+    left:673px;
+}
+ .contact .mastercard{
+    width:130px;
+    height:50px;
+    position:absolute;
+    top:380px;
+    left:830px;
+}
+ .contact .dana{
+    width:130px;
+    height:50px;
+    position:absolute;
+    top:380px;
+    left:973px;
+}
+ .contact .gopay{
+    width:130px;
+    height:50px;
+    position:absolute;
+    top:380px;
+    left:1123px;
+}
+.contact .contactus{
+    position:absolute;
+    left:50px;
+    top:200px;
+    border-radius:5px;
+    width:250px;
+}
+.listSocialMedia{
+    position:relative;
+    top:400px;
+}
+.listSocialMedia .fa-facebook{
+    position:absolute;
+    top:-150px;
+    font-size:30px;
+    color:blue;
+    left:60px;
+}
+.listSocialMedia .fa-instagram{
+    position:absolute;
+    top:-150px;
+    font-size:30px;
+    color:red;
+    left:110px;
+}
+
+.listSocialMedia .fa-viber{
+    position:absolute;
+    top:-150px;
+    font-size:30px;
+    color:blue;
+    left:160px;
+}
+.listSocialMedia .fa-twitter{
+    position:absolute;
+    top:-150px;
+    font-size:30px;
+    color:aqua;
+    left:210px;
+}
+.listSocialMedia .fa-linkedin{
+    position:absolute;
+    top:-150px;
+    font-size:30px;
+    color:rgb(8, 8, 229);
+    left:260px;
+}
+
+.whoWeAre .full2{
+    position:absolute;
+    top:700px;
+    width:1535px;
+    height:35px;
+    background-color:black;
+}
+    
+    
+
+/* payment method finishing */
+
+
+
+
+
+
+
+
+
+
+/*See The chef finishing */
+/* Chef finishing */
+
+
+
+
+
+
+
+
+
+
+
+
+
